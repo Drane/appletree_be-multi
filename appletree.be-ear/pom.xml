@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>appletree.be-multi</artifactId>
+        <groupId>be.appletree</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>appletree.be-ear</artifactId>
+    <packaging>ear</packaging>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>be.appletree</groupId>
+            <artifactId>appletree.be-domain</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>jar</type>
+        </dependency>
+
+        <dependency>
+            <groupId>be.appletree</groupId>
+            <artifactId>appletree.be-ejb</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>ejb</type>
+        </dependency>
+
+        <dependency>
+            <groupId>be.appletree</groupId>
+            <artifactId>appletree.be-web</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <type>war</type>
+        </dependency>
+
+    </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>maven-ear-plugin</artifactId>
+                <version>2.8</version>
+                <configuration>
+                    <modules>
+                        <jarModule>
+                            <groupId>be.appletree</groupId>
+                            <artifactId>appletree.be-domain</artifactId>
+                            <includeInApplicationXml>true</includeInApplicationXml>
+                        </jarModule>
+                        <webModule>
+                            <groupId>be.appletree</groupId>
+                            <artifactId>appletree.be-web</artifactId>
+                        </webModule>
+                        <ejbModule>
+                            <groupId>be.appletree</groupId>
+                            <artifactId>appletree.be-ejb</artifactId>
+                        </ejbModule>
+                    </modules>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

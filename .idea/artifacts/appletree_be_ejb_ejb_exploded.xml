@@ -1,0 +1,9 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ejb" name="appletree.be-ejb:ejb exploded">
+    <output-path>$PROJECT_DIR$/appletree.be-ejb/target/appletree.be-ejb-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="appletree.be-ejb/ejb/EJB" />
+      <element id="module-output" name="appletree.be-ejb" />
+    </root>
+  </artifact>
+</component>

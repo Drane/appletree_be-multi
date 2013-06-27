@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/appletree.be-domain/appletree.be-domain.iml" filepath="$PROJECT_DIR$/appletree.be-domain/appletree.be-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appletree.be-ear/appletree.be-ear.iml" filepath="$PROJECT_DIR$/appletree.be-ear/appletree.be-ear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appletree.be-ejb/appletree.be-ejb.iml" filepath="$PROJECT_DIR$/appletree.be-ejb/appletree.be-ejb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appletree.be-multi.iml" filepath="$PROJECT_DIR$/appletree.be-multi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/appletree.be-web/appletree.be-web.iml" filepath="$PROJECT_DIR$/appletree.be-web/appletree.be-web.iml" />
+    </modules>
+  </component>
+</project>
+

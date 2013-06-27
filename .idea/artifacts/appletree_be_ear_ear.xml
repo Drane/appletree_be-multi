@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="ear" name="appletree.be-ear:ear">
+    <output-path>$PROJECT_DIR$/appletree.be-ear/target</output-path>
+    <root id="archive" name="appletree.be-ear-1.0-SNAPSHOT.ear">
+      <element id="artifact" artifact-name="appletree.be-ear:ear exploded" />
+    </root>
+  </artifact>
+</component>
